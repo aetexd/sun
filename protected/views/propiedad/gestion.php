@@ -44,7 +44,7 @@ if(!yii::app()->session['activo'])
                         <div class="col-md-6">
                             <div class="form-group">
                                 <?php echo $form->labelEx($model,'RUTCLIENTE'); ?>
-                                <?php echo $form->dropDownList($model,'RUTCLIENTE', CHtml::listData(Cliente::model()->findAll(),'RUTCLIENTE','NOMBRESCLIENTE'));?>
+                                <?php echo $form->dropDownList($model,'RUTCLIENTE', CHtml::listData(Cliente::model()->findAll(),'RUTCLIENTE','fullname'));?>
                                 <?php echo $form->error($model,'RUTCLIENTE'); ?>
 
                                 <div class="center-block">

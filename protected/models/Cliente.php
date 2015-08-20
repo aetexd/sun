@@ -51,6 +51,10 @@ class Cliente extends CActiveRecord
 		);
 	}
 
+    public function getFullName(){
+        return $this->RUTCLIENTE.'  '.$this->NOMBRESCLIENTE.' '.$this->APELLIDOSCLIENTE;
+    }
+
 	/**
 	 * @return array customized attribute labels (name=>label)
 	 */

@@ -61,14 +61,6 @@ class PropiedadController extends Controller
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
 
-	public function actionPrueba(){
-		var_dump($_POST);
-		Yii::app()->end();
-
-		$model = new Propiedad;
-		$this->render('gestion', array("model"=>$model));
-
-	}
 
 	public function actionCreate()
 	{
@@ -133,7 +125,7 @@ class PropiedadController extends Controller
 	public function actionIndex()
 	{
 		$model=new Propiedad;
-
+        
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 		if(isset($_POST['Propiedad']))

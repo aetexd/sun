@@ -88,9 +88,11 @@ if(!Yii::app()->session['activo'])
                 <div class="box-footer">
                     <div class="pull-right">
                         <div class="row buttons">
-                            <?php echo CHtml::submitButton('Guardar'); ?>
+                            <?php echo CHtml::submitButton('Guardar', array("class"=>"boton") ); ?>
+                            <?php $this->widget('application.ext.data.EBackButtonWidget'); ?>
                         </div>
                         <?php $this->endWidget(); ?>
+
                     </div>
                 </div>
                 </div>

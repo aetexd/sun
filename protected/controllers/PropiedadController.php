@@ -125,7 +125,7 @@ class PropiedadController extends Controller
 	public function actionIndex()
 	{
 		$model=new Propiedad;
-        
+
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 		if(isset($_POST['Propiedad']))

@@ -26,6 +26,7 @@ class UserIdentity extends CUserIdentity
         elseif($this->password!==$admin->CONTRAADMIN)
             $this->errorCode=self::ERROR_PASSWORD_INVALID;
         else{
+
             Yii::app()->session['activo'] = true;
             Yii::app()->session['admin_nombre']=$admin->NOMBRESADMIN;
             Yii::app()->session['admin_rut']=$admin->RUTADMIN;

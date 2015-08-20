@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - @localhost" uuid="27f136ec-ce24-4864-a0e6-367892509ddb">
+    <database-info product="MySQL" version="5.5.42" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper"/>
+    <schema name="" catalog="sun"/>
+    <table name="administrador" schema="" catalog="sun" type="TABLE">
+      <column name="RUTADMIN" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="NOMBRESADMIN" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="APELLIDOSADMIN" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="CONTRAADMIN" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="TELEFONOADMIN" sqlType="VARCHAR" precision="11" scale="0" nullable="false" jdbcType="12"/>
+      <column name="CORREOADMIN" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="imagen" sqlType="VARCHAR" precision="100" scale="0" nullable="true" jdbcType="12" def="J2Rpc3QvaW1nL251bGwucG5nJw=="/>
+      <primary-key name="PRIMARY" columns="RUTADMIN"/>
+    </table>
+    <table name="arrendatario" schema="" catalog="sun" type="TABLE">
+      <column name="RUTARREN" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="NOMBRESARREN" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="APELLIDOSARREN" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="TELEFONOARREN" sqlType="VARCHAR" precision="12" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="RUTARREN"/>
+    </table>
+    <table name="arriendo" schema="" catalog="sun" type="TABLE">
+      <column name="IDARRIENDO" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="IDPROP" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="RUTADMIN" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="RUTARREN" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="FECHAARRIENDO" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="FECHAPAGOARRIENDO" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="VALORARRIENDO" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TIEMPODEARRIENDO" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="IDARRIENDO"/>
+      <index name="FK_ARRIENDA" unique="false" columns="RUTARREN"/>
+      <index name="FK_GESTIONA" unique="false" columns="RUTADMIN"/>
+      <index name="FK_PUEDE" unique="false" columns="IDPROP"/>
+    </table>
+    <table name="cliente" schema="" catalog="sun" type="TABLE">
+      <column name="RUTCLIENTE" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="NOMBRESCLIENTE" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="APELLIDOSCLIENTE" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="TELEFONOCLIENTE" sqlType="VARCHAR" precision="12" scale="0" nullable="false" jdbcType="12"/>
+      <column name="DIRECCIONCLIENTE" sqlType="VARCHAR" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <column name="CORREOCLIENTE" sqlType="VARCHAR" precision="75" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="RUTCLIENTE"/>
+    </table>
+    <table name="documento" schema="" catalog="sun" type="TABLE">
+      <column name="IDDOCU" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="IDARRIENDO" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="IDPROP" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="RUTARREN" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
+      <column name="TIPODOCU" sqlType="VARCHAR" precision="25" scale="0" nullable="false" jdbcType="12"/>
+      <column name="UBICACIONDOCU" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="DIGITALIZADO" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="COPIAORIGINAL" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <primary-key name="PRIMARY" columns="IDDOCU"/>
+      <index name="FK_ADJUDICA" unique="false" columns="IDPROP"/>
+      <index name="FK_CONTIENE" unique="false" columns="IDARRIENDO"/>
+      <index name="FK_ENTREGA" unique="false" columns="RUTARREN"/>
+    </table>
+    <table name="factura" schema="" catalog="sun" type="TABLE">
+      <column name="IDFACTURA" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="IDPAGO" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="NUMFACTURA" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="FECHAFACTURA" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="SUBTOTALFACTURA" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="IVAFACTURA" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TOTALFACTURA" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="IDFACTURA"/>
+      <index name="FK_GENERA" unique="false" columns="IDPAGO"/>
+    </table>
+    <table name="funcionario" schema="" catalog="sun" type="TABLE">
+      <column name="RUTFUNCIONARIO" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="NOMBRESFUNCIONARIOS" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="APELLIDOSFUCIONARIO" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="TELEFONOFUNCIONARIO" sqlType="VARCHAR" precision="12" scale="0" nullable="false" jdbcType="12"/>
+      <column name="SECTORFUNCIONARIO" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="DIRECCIONFUNCIONARIO" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="CORREOFUNCIONARIO" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="RUTFUNCIONARIO"/>
+    </table>
+    <table name="imagen" schema="" catalog="sun" type="TABLE">
+      <column name="IDIMAGEN" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="IDPROP" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="URLIMAGEN" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="IDIMAGEN"/>
+      <index name="FK_REPRESENTA" unique="false" columns="IDPROP"/>
+    </table>
+    <table name="integra" schema="" catalog="sun" type="TABLE">
+      <column name="IDINTEGRA" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="IDOT" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="RUTFUNCIONARIO" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="IDINTEGRA"/>
+      <index name="FK_RELATIONSHIP_13" unique="false" columns="RUTFUNCIONARIO"/>
+      <index name="FK_RELATIONSHIP_14" unique="false" columns="IDOT"/>
+    </table>
+    <table name="ordentrabajo" schema="" catalog="sun" type="TABLE">
+      <column name="IDOT" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="RUTADMIN" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="DESCIPCIONOT" sqlType="VARCHAR" precision="254" scale="0" nullable="false" jdbcType="12"/>
+      <column name="FECHAEMISIONOT" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="FECHAEJECUCIONOT" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="ESTADOOT" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="FORMULARIOOT" sqlType="VARCHAR" precision="254" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="IDOT"/>
+      <index name="FK_CREA" unique="false" columns="RUTADMIN"/>
+    </table>
+    <table name="pago" schema="" catalog="sun" type="TABLE">
+      <column name="IDPAGO" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="RUTARREN" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="IDARRIENDO" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="FECHAPAGO" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="TOTALPAGAR" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TOTALPAGADO" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="IDPAGO"/>
+      <index name="FK_CANCELA" unique="false" columns="RUTARREN"/>
+      <index name="FK_OBTIENE" unique="false" columns="IDARRIENDO"/>
+    </table>
+    <table name="propiedad" schema="" catalog="sun" type="TABLE">
+      <column name="IDPROP" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="RUTCLIENTE" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="DIRECCION" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="CANTPIEZA" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="CANTBANO" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TERRENO" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TERRENOCONSTRUIDO" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TIPO" sqlType="VARCHAR" precision="25" scale="0" nullable="false" jdbcType="12"/>
+      <column name="SERVICIO" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="ESTADO" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6" def="MQ=="/>
+      <column name="DESCRIPCION" sqlType="VARCHAR" precision="250" scale="0" nullable="true" jdbcType="12"/>
+      <column name="COMUNAPROPIEDAD" sqlType="VARCHAR" precision="20" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="IDPROP"/>
+      <index name="FK_POSEE" unique="false" columns="RUTCLIENTE"/>
+    </table>
+    <table name="solicitud" schema="" catalog="sun" type="TABLE">
+      <column name="IDSOLICITUD" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="RUTCLIENTE" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="RUTSOLICITANTE" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="NOMBRESSOLICITANTE" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="APELLIDOSSOLICITANTE" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="SERVICIOSOLICITADO" sqlType="VARCHAR" precision="25" scale="0" nullable="false" jdbcType="12"/>
+      <column name="FECHASOLICITUD" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="FECHASOLICITADA" sqlType="DATE" precision="10" scale="0" nullable="false" jdbcType="91"/>
+      <column name="NUMTELEFONO" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="ESTADOSOLICITUD" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="DESCRIPCIONSOLICITUD" sqlType="VARCHAR" precision="254" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="IDSOLICITUD"/>
+      <index name="FK_REALIZA" unique="false" columns="RUTCLIENTE"/>
+    </table>
+    <table name="venta" schema="" catalog="sun" type="TABLE">
+      <column name="IDVENTA" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="RUTADMIN" sqlType="VARCHAR" precision="10" scale="0" nullable="true" jdbcType="12"/>
+      <column name="IDPROP" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="NOMBRECOMPRADOR" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="APELLIDOSCOMPRADOR" sqlType="VARCHAR" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="RUTCOMPRADOR" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="IDVENTA"/>
+      <index name="FK_ES" unique="false" columns="IDPROP"/>
+      <index name="FK_HACE" unique="false" columns="RUTADMIN"/>
+    </table>
+  </data-source>
+</component>

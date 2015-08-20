@@ -46,7 +46,6 @@ $this->menu=array(
         'DIRECCION:text:Dirección',
         'TIPO:text:Tipo de propiedad',
         'SERVICIO:text:Servicio prestado',
-        'SERVICIO:text:Servicio prestado',
         array('header'=>'Estado','name'=>'Estado','value' => '$data->ESTADO?Yii::t(\'app\',\'Disponible\'):Yii::t(\'app\', \'Ocupado\')',
             'filter' => array('0' => Yii::t('app', 'Ocupado'), '1' => Yii::t('app', 'Disponible')),
             'htmlOptions' => array('style' => "text-align:center;"), ),

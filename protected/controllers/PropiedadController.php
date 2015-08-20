@@ -6,7 +6,7 @@ class PropiedadController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/intraLayout';
+	public $layout='//layouts/intralayout';
 
 	/**
 	 * @return array action filters
@@ -28,7 +28,7 @@ class PropiedadController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view', 'ver'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -76,6 +76,7 @@ class PropiedadController extends Controller
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
+
 
 		if(isset($_POST['Propiedad']))
 		{
@@ -126,18 +127,15 @@ class PropiedadController extends Controller
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
-
 	/**
 	 * Lists all models.
 	 */
 	public function actionIndex()
 	{
-
 		$model=new Propiedad;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
-
 		if(isset($_POST['Propiedad']))
 		{
 			$model->attributes=$_POST['Propiedad'];
@@ -149,6 +147,17 @@ class PropiedadController extends Controller
 
 
 	}
+
+    public function actionVer(){
+        $dataProvider=new CActiveDataProvider('Propiedad',array(
+            'pagination'=>array(
+                'pageSize'=>4,
+            ),
+        ));
+        $this->render('index',array(
+            'dataProvider'=>$dataProvider,
+        ));
+    }
 
 	/**
 	 * Manages all models.

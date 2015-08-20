@@ -1,5 +1,5 @@
 <?php
-if(!Yii::app()->session['activo'])
+if(!yii::app()->session['activo'])
     $this->redirect('?r=site/index');;
 ?>
 
@@ -44,13 +44,7 @@ if(!Yii::app()->session['activo'])
                         <div class="col-md-6">
                             <div class="form-group">
                                 <?php echo $form->labelEx($model,'RUTCLIENTE'); ?>
-                                <?php $modelos = Cliente::model()->findAll();
-                                $data = array();
-                                foreach ($modelos as $modelo)
-                                    $data[$modelo->RUTCLIENTE] = $modelo->RUTCLIENTE.'. '.' '.$modelo->NOMBRESCLIENTE.' '.$modelo->APELLIDOSCLIENTE.'.';
-
-                                echo $form->dropDownList($modelo, 'RUTCLIENTE', $data,
-                                    array("class"=>"form-control select2")); ?>
+                                <?php echo $form->dropDownList($model,'RUTCLIENTE', CHtml::listData(Cliente::model()->findAll(),'RUTCLIENTE','NOMBRESCLIENTE'));?>
                                 <?php echo $form->error($model,'RUTCLIENTE'); ?>
 
                                 <div class="center-block">

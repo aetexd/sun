@@ -342,3 +342,6 @@ CREATE TABLE `venta` (
 -- Volcar la base de datos para la tabla `venta`
 -- 
 
+ALTER TABLE  `solicitud` ADD  `CORREOCONTACTO` VARCHAR( 100 ) NOT NULL ;
+ALTER TABLE  `solicitud` CHANGE  `CORREOCONTACTO`  `CORREOCONTACTO` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT  'Correo de contacto'
+ALTER TABLE  `solicitud` DROP  `RUTSOLICITANTE`

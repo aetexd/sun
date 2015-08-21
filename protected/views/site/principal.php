@@ -301,29 +301,29 @@ if(Yii::app()->session['activo']) {
                     <h2>Solicite el servicio deseado</h2>
                 </div>
                 <div class="col-md-6">
-                    <p>RUT</p>
-                    <?php echo $form->textField($model1,'RUTSOLICITANTE',array('size'=>10,'maxlength'=>10, 'placeholder'=>'12345678-9', "class"=>"form-control select2")); ?>
-                    <?php echo $form->error($model1,'RUTSOLICITANTE'); ?>
+                    <p>Ingrese su correo*</p>
+                    <?php echo $form->emailField($model1,'CORREOCONTACTO',array('size'=>10,'maxlength'=>10, 'placeholder'=>'12345678-9', "class"=>"form-control select2")); ?>
+                    <?php echo $form->error($model1,'CORREOCONTACTO'); ?>
                 </div>
                 <div class="col-md-6">
-                    <p>Nombres</p>
+                    <p>Nombres*</p>
                     <?php echo $form->textField($model1,'NOMBRESSOLICITANTE',array('size'=>50,'maxlength'=>50, 'placeholder'=>'Ingrese sus nombres', "class"=>"form-control select2" )); ?>
                     <?php echo $form->error($model1,'NOMBRESSOLICITANTE'); ?>
                 </div>
                 <div class="col-md-6">
-                    <p>Apellidos</p>
+                    <p>Apellidos*</p>
 
                     <?php echo $form->textField($model1,'APELLIDOSSOLICITANTE',array('size'=>50,'maxlength'=>50, 'placeholder'=>'Ingrese sus apellidos', "class"=>"form-control select2")); ?>
                     <?php echo $form->error($model1,'APELLIDOSSOLICITANTE'); ?>
                     </div>
                 <div class="col-md-6">
-                    <p>Número de telefono</p>
+                    <p>Número de telefono*</p>
                     <?php echo $form->textField($model1,'NUMTELEFONO', array('placeholder'=>'Ingrese su número de telefono', "class"=>"form-control select2")); ?>
                     <?php echo $form->error($model1,'NUMTELEFONO'); ?>
 
                 </div>
                 <div class="col-md-6">
-                    <p>Tipo de Propiedad</p>
+                    <p>Tipo de Propiedad*</p>
                     <?php echo $form->dropDownList($model1,'TIPOPROPIEDAD',
                         array(
                             'Departamento Habitación' => 'Departamento Habitación',
@@ -343,7 +343,7 @@ if(Yii::app()->session['activo']) {
                 <div class="col-md-6">
                 </div>
                 <div class="col-md-6">
-                    <p>Tipo de servicio</p>
+                    <p>Tipo de servicio*</p>
                     <?php echo $form->dropDownList($model1,'SERVICIOSOLICITADO',
                         array(
                             'Venta' => 'Venta',
@@ -358,7 +358,7 @@ if(Yii::app()->session['activo']) {
                     <?php echo $form->error($model1,'SERVICIOSOLICITADO'); ?>
                 </div>
                 <div class="col-md-12">
-                    <p>Comentario</p>
+                    <p>Comentario*</p>
                     <?php echo $form->textArea($model1,'DESCRIPCIONSOLICITUD',array('size'=>60,'maxlength'=>254, 'placeholder'=>'Escriba una breve descripción o comentario', "class"=>"form-control select2")); ?>
                     <?php echo $form->error($model1,'DESCRIPCIONSOLICITUD'); ?>
                 </div>

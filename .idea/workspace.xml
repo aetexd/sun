@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61a43030-bffe-42eb-88f9-a8383e569621" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Solicitud.php" afterPath="$PROJECT_DIR$/protected/models/Solicitud.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/crebas.sql" afterPath="$PROJECT_DIR$/protected/data/crebas.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/principal.php" afterPath="$PROJECT_DIR$/protected/views/site/principal.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Solycobre.iws" />
@@ -48,45 +50,45 @@
       <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.418182">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="principal.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="principal.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.038462">
-              <caret line="157" column="50" selection-start-line="157" selection-start-column="50" selection-end-line="157" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.9373849">
+              <caret line="370" column="10" selection-start-line="370" selection-start-column="10" selection-end-line="370" selection-end-column="10" />
               <folding>
-                <marker date="1440136682481" expanded="true" signature="3188:3413" placeholder="..." />
-                <marker date="1440136682481" expanded="true" signature="3302:3413" placeholder="..." />
-                <marker date="1440136682481" expanded="true" signature="3362:3413" placeholder="..." />
+                <marker date="1440167810890" expanded="true" signature="3188:3413" placeholder="..." />
+                <marker date="1440167810890" expanded="true" signature="3302:3413" placeholder="..." />
+                <marker date="1440167810890" expanded="true" signature="3362:3413" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="crebas.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crebas.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/data/crebas.sql">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.432282">
-              <caret line="328" column="22" selection-start-line="328" selection-start-column="22" selection-end-line="328" selection-end-column="22" />
+            <state vertical-scroll-proportion="-15.689655">
+              <caret line="346" column="47" selection-start-line="346" selection-start-column="47" selection-end-line="346" selection-end-column="47" />
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropiedadForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/models/PropiedadForm.php">
+      <file leaf-file-name="Solicitud.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/Solicitud.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.461538">
-              <caret line="16" column="98" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
+              <caret line="112" column="42" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -95,7 +97,7 @@
       <file leaf-file-name="Propiedad.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Propiedad.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="36" />
               <folding />
             </state>
@@ -105,7 +107,7 @@
       <file leaf-file-name="gestion.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/propiedad/gestion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.961538">
+            <state vertical-scroll-proportion="0.0">
               <caret line="103" column="0" selection-start-line="89" selection-start-column="31" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
@@ -164,8 +166,8 @@
         <option value="$PROJECT_DIR$/protected/views/propiedad/gestion.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/models/PropiedadForm.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/principal.php" />
         <option value="$PROJECT_DIR$/protected/data/crebas.sql" />
+        <option value="$PROJECT_DIR$/protected/views/site/principal.php" />
       </list>
     </option>
   </component>
@@ -662,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440136781027</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Cambio en la base de datos.- (creabas.sql)">
+      <created>1440137856395</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1440137856395</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -670,9 +678,8 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14220877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14447807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15885022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -682,6 +689,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -710,20 +718,14 @@
     <MESSAGE value="Modificaciónes de prueba" />
     <MESSAGE value="Arreglo de Ingreso." />
     <MESSAGE value="creación de widget&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="creación de widget&#10;" />
+    <MESSAGE value="Cambio en la base de datos.- (creabas.sql)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio en la base de datos.- (creabas.sql)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/sectional.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33225283">
-          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/propiedad/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -957,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="54" column="36" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,13 +1057,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-36.923077">
           <caret line="89" column="49" selection-start-line="88" selection-start-column="19" selection-end-line="89" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/propiedad/gestion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.961538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="103" column="0" selection-start-line="89" selection-start-column="31" selection-end-line="103" selection-end-column="0" />
           <folding />
         </state>
@@ -1070,7 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.418182">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
           <folding />
         </state>
@@ -1078,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Propiedad.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="36" />
           <folding />
         </state>
@@ -1086,32 +1086,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/PropiedadForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="16" column="98" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/data/crebas.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.689655">
+          <caret line="346" column="47" selection-start-line="346" selection-start-column="47" selection-end-line="346" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Solicitud.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="112" column="42" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.038462">
-          <caret line="157" column="50" selection-start-line="157" selection-start-column="50" selection-end-line="157" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.9373849">
+          <caret line="370" column="10" selection-start-line="370" selection-start-column="10" selection-end-line="370" selection-end-column="10" />
           <folding>
-            <marker date="1440136682481" expanded="true" signature="3188:3413" placeholder="..." />
-            <marker date="1440136682481" expanded="true" signature="3302:3413" placeholder="..." />
-            <marker date="1440136682481" expanded="true" signature="3362:3413" placeholder="..." />
+            <marker date="1440167810890" expanded="true" signature="3188:3413" placeholder="..." />
+            <marker date="1440167810890" expanded="true" signature="3302:3413" placeholder="..." />
+            <marker date="1440167810890" expanded="true" signature="3362:3413" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/data/crebas.sql">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.432282">
-          <caret line="328" column="22" selection-start-line="328" selection-start-column="22" selection-end-line="328" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>

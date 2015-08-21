@@ -51,7 +51,7 @@ class ClienteController extends Controller
 	 */
 	public function actionView($id)
 	{
-		$this->render('view',array(
+		$this->render('vista',array(
 			'model'=>$this->loadModel($id),
 		));
 	}

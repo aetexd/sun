@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 -- 
 -- Servidor: localhost
--- Tiempo de generación: 21-08-2015 a las 03:16:02
+-- Tiempo de generación: 08-08-2015 a las 19:02:22
 -- Versión del servidor: 5.0.51
 -- Versión de PHP: 5.2.6
 
@@ -104,7 +104,6 @@ CREATE TABLE `cliente` (
 
 INSERT INTO `cliente` VALUES ('19206063-k', 'Marcela Andrea', 'Muñoz Campusano', '57238757', 'La torre 1291', 'marcela_terribleDeBrigida@hotmail.es');
 INSERT INTO `cliente` VALUES ('18183527-3', 'Mario Hernán Douglas', 'Ossandón Zúñiga', '85352482', 'Bobby maguila gorila', 'mario.hdoz1@gmail.com');
-INSERT INTO `cliente` VALUES ('12582393-9', 'Sandra Marisol', 'Campusano Araya', '85352482', 'Bobby maguila gorila', 'mario.hdoz1@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -162,13 +161,13 @@ CREATE TABLE `factura` (
 -- 
 
 CREATE TABLE `funcionario` (
-  `RUTFUNCIONARIO` varchar(10) NOT NULL COMMENT 'RUT de funcionario',
-  `NOMBRESFUNCIONARIOS` varchar(50) NOT NULL COMMENT 'Nombres',
-  `APELLIDOSFUCIONARIO` varchar(50) NOT NULL COMMENT 'Apellidos',
-  `TELEFONOFUNCIONARIO` varchar(12) NOT NULL COMMENT 'Fono de contacto',
-  `SECTORFUNCIONARIO` varchar(50) NOT NULL COMMENT 'Sector',
-  `DIRECCIONFUNCIONARIO` varchar(50) NOT NULL COMMENT 'Dirección',
-  `CORREOFUNCIONARIO` varchar(50) NOT NULL COMMENT 'Correo ',
+  `RUTFUNCIONARIO` varchar(10) NOT NULL,
+  `NOMBRESFUNCIONARIOS` varchar(50) NOT NULL,
+  `APELLIDOSFUCIONARIO` varchar(50) NOT NULL,
+  `TELEFONOFUNCIONARIO` varchar(12) NOT NULL,
+  `SECTORFUNCIONARIO` varchar(50) NOT NULL,
+  `DIRECCIONFUNCIONARIO` varchar(50) NOT NULL,
+  `CORREOFUNCIONARIO` varchar(50) NOT NULL,
   PRIMARY KEY  (`RUTFUNCIONARIO`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
@@ -184,9 +183,9 @@ CREATE TABLE `funcionario` (
 -- 
 
 CREATE TABLE `imagen` (
-  `IDIMAGEN` int(11) NOT NULL auto_increment COMMENT 'Imagen',
-  `IDPROP` int(11) NOT NULL COMMENT 'Propiedad',
-  `URLIMAGEN` varchar(100) NOT NULL COMMENT 'Ruta',
+  `IDIMAGEN` int(11) NOT NULL auto_increment,
+  `IDPROP` int(11) NOT NULL,
+  `URLIMAGEN` varchar(100) NOT NULL,
   PRIMARY KEY  (`IDIMAGEN`),
   KEY `FK_REPRESENTA` (`IDPROP`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
@@ -299,18 +298,17 @@ INSERT INTO `propiedad` VALUES (2, '19206063-k', 'Calama rape', 1, 1, 123456, 12
 -- 
 
 CREATE TABLE `solicitud` (
-  `IDSOLICITUD` int(11) NOT NULL auto_increment COMMENT 'Código ',
-  `RUTCLIENTE` varchar(10) default NULL COMMENT 'RUT de cliente',
-  `RUTSOLICITANTE` varchar(10) default NULL COMMENT 'RUT de solicitante',
-  `NOMBRESSOLICITANTE` varchar(50) NOT NULL COMMENT 'Nombres',
-  `APELLIDOSSOLICITANTE` varchar(50) NOT NULL COMMENT 'Apellidos',
-  `SERVICIOSOLICITADO` varchar(25) NOT NULL COMMENT 'Servicio prestado',
-  `FECHASOLICITUD` date NOT NULL COMMENT 'Fecha de solicitud',
-  `FECHASOLICITADA` date NOT NULL COMMENT 'Fecha de ejecución',
-  `NUMTELEFONO` int(11) NOT NULL COMMENT 'Fono de contacto',
-  `ESTADOSOLICITUD` tinyint(1) NOT NULL COMMENT 'Estado de solicitud',
-  `DESCRIPCIONSOLICITUD` varchar(254) NOT NULL COMMENT 'Descripción',
-  `TIPOPROPIEDAD` varchar(50) NOT NULL default 'Casa' COMMENT 'Tipo de propiedad',
+  `IDSOLICITUD` int(11) NOT NULL auto_increment,
+  `RUTCLIENTE` varchar(10) NOT NULL,
+  `RUTSOLICITANTE` varchar(10) NOT NULL,
+  `NOMBRESSOLICITANTE` varchar(50) NOT NULL,
+  `APELLIDOSSOLICITANTE` varchar(50) NOT NULL,
+  `SERVICIOSOLICITADO` varchar(25) NOT NULL,
+  `FECHASOLICITUD` date NOT NULL,
+  `FECHASOLICITADA` date NOT NULL,
+  `NUMTELEFONO` int(11) NOT NULL,
+  `ESTADOSOLICITUD` tinyint(1) NOT NULL,
+  `DESCRIPCIONSOLICITUD` varchar(254) NOT NULL,
   PRIMARY KEY  (`IDSOLICITUD`),
   KEY `FK_REALIZA` (`RUTCLIENTE`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
@@ -341,7 +339,3 @@ CREATE TABLE `venta` (
 -- 
 -- Volcar la base de datos para la tabla `venta`
 -- 
-
-ALTER TABLE  `solicitud` ADD  `CORREOCONTACTO` VARCHAR( 100 ) NOT NULL ;
-ALTER TABLE  `solicitud` CHANGE  `CORREOCONTACTO`  `CORREOCONTACTO` VARCHAR( 100 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT  'Correo de contacto'
-ALTER TABLE  `solicitud` DROP  `RUTSOLICITANTE`

@@ -711,3 +711,19 @@ a {
 a:hover {
   color: #1abc9c;
 }
+
+.btn {
+    background: #eeeeee;
+    position: inherit;
+    margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #ff5722;
+    background-image: -webkit-linear-gradient(top, #ff5722, #ff5722);
+    background-image: -moz-linear-gradient(top, #ff5722, #ff5722);
+    background-image: -ms-linear-gradient(top, #ff5722, #ff5722);
+    background-image: -o-linear-gradient(top, #ff5722, #ff5722);
+    background-image: linear-gradient(to bottom, #ff5722, #ff5722);
+    text-decoration: none;
+}

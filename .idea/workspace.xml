@@ -2,9 +2,72 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61a43030-bffe-42eb-88f9-a8383e569621" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Solicitud.php" afterPath="$PROJECT_DIR$/protected/models/Solicitud.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/BebasNeue-webfont.svg" afterPath="$PROJECT_DIR$/css/fonts/BebasNeue-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/CHANGES.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/Dharma Type Font License.txt" afterPath="$PROJECT_DIR$/css/fonts/Dharma Type Font License.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/ext/data/EBackButtonWidget.php" afterPath="$PROJECT_DIR$/protected/ext/data/EBackButtonWidget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/IntraController.php" afterPath="$PROJECT_DIR$/protected/controllers/IntraController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/PropiedadForm.php" afterPath="$PROJECT_DIR$/protected/models/PropiedadForm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/skins/_all-skins.min.css" afterPath="$PROJECT_DIR$/dist/css/skins/_all-skins.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addCliente.php" afterPath="$PROJECT_DIR$/addCliente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/cliente/addCliente.php" afterPath="$PROJECT_DIR$/protected/views/cliente/addCliente.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate-custom.css" afterPath="$PROJECT_DIR$/css/animate-custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/boton.css" afterPath="$PROJECT_DIR$/css/boton.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/crebas.sql" afterPath="$PROJECT_DIR$/protected/data/crebas.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo.css" afterPath="$PROJECT_DIR$/css/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/fontomas-webfont.svg" afterPath="$PROJECT_DIR$/css/fonts/fontomas-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ie/images/footer.svg" afterPath="$PROJECT_DIR$/css/ie/images/footer.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/franchise-bold-webfont.svg" afterPath="$PROJECT_DIR$/css/fonts/franchise-bold-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/propiedad/gestion.php" afterPath="$PROJECT_DIR$/protected/views/propiedad/gestion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/intra/intra.php" afterPath="$PROJECT_DIR$/protected/views/intra/intra.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/intraLayout.php" afterPath="$PROJECT_DIR$/protected/views/layouts/intraLayout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.ajaxqueue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.ajaxqueue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.ajaxqueue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.ajaxqueue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.ajaxqueue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/28f34c2/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/28f34c2/js/fancybox/jquery.fancybox-1.3.1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/400f684f/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/400f684f/js/fancybox/jquery.fancybox-1.3.1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/841112b8/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/841112b8/js/fancybox/jquery.fancybox-1.3.1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.multifile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.multifile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.multifile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.multifile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.multifile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/56d1ed57/rating/jquery.rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/5c47102/rating/jquery.rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/7e47458f/rating/jquery.rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/9d5573d5/rating/jquery.rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/f4e7ad99/rating/jquery.rating.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.treeview.async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.treeview.async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.treeview.async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.treeview.async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.treeview.async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/56d1ed57/treeview/jquery.treeview.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/5c47102/treeview/jquery.treeview.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/7e47458f/treeview/jquery.treeview.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/9d5573d5/treeview/jquery.treeview.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/f4e7ad99/treeview/jquery.treeview.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/overlay.svg" afterPath="$PROJECT_DIR$/css/images/overlay.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/principal.php" afterPath="$PROJECT_DIR$/protected/views/site/principal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/propiedadLayout.php" afterPath="$PROJECT_DIR$/protected/views/layouts/propiedadLayout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/skins/moono/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style3.css" afterPath="$PROJECT_DIR$/css/style3.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templatemo_script.js" afterPath="$PROJECT_DIR$/js/templatemo_script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/templatemo_style.css" afterPath="$PROJECT_DIR$/css/templatemo_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/propiedad/vista.php" afterPath="$PROJECT_DIR$/protected/views/propiedad/vista.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Solycobre.iws" />
@@ -50,7 +113,7 @@
       <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="24" column="93" selection-start-line="24" selection-start-column="93" selection-end-line="24" selection-end-column="93" />
               <folding />
             </state>
@@ -60,12 +123,12 @@
       <file leaf-file-name="principal.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9373849">
-              <caret line="370" column="10" selection-start-line="370" selection-start-column="10" selection-end-line="370" selection-end-column="10" />
+            <state vertical-scroll-proportion="1.0626152">
+              <caret line="369" column="15" selection-start-line="369" selection-start-column="15" selection-end-line="369" selection-end-column="15" />
               <folding>
-                <marker date="1440167810890" expanded="true" signature="3188:3413" placeholder="..." />
-                <marker date="1440167810890" expanded="true" signature="3302:3413" placeholder="..." />
-                <marker date="1440167810890" expanded="true" signature="3362:3413" placeholder="..." />
+                <marker date="1440176746129" expanded="true" signature="3188:3413" placeholder="..." />
+                <marker date="1440176746129" expanded="true" signature="3302:3413" placeholder="..." />
+                <marker date="1440176746129" expanded="true" signature="3362:3413" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -73,21 +136,21 @@
       </file>
       <file leaf-file-name="crebas.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/data/crebas.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.689655">
-              <caret line="346" column="47" selection-start-line="346" selection-start-column="47" selection-end-line="346" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="341" column="0" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Solicitud.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Solicitud.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538">
+            <state vertical-scroll-proportion="0.0">
               <caret line="112" column="42" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="42" />
               <folding />
             </state>
@@ -263,6 +326,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -351,7 +415,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
@@ -670,7 +733,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440137856395</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix de principal sobre solicitud.- (Principal.php)">
+      <created>1440167871243</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1440167871243</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -678,7 +747,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14447807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14674735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -719,7 +788,8 @@
     <MESSAGE value="Arreglo de Ingreso." />
     <MESSAGE value="creación de widget&#10;" />
     <MESSAGE value="Cambio en la base de datos.- (creabas.sql)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio en la base de datos.- (creabas.sql)" />
+    <MESSAGE value="Fix de principal sobre solicitud.- (Principal.php)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix de principal sobre solicitud.- (Principal.php)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1088,24 +1158,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="98" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/data/crebas.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.689655">
-          <caret line="346" column="47" selection-start-line="346" selection-start-column="47" selection-end-line="346" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="341" column="0" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Solicitud.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538">
+        <state vertical-scroll-proportion="0.0">
           <caret line="112" column="42" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="42" />
           <folding />
         </state>
@@ -1113,12 +1182,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9373849">
-          <caret line="370" column="10" selection-start-line="370" selection-start-column="10" selection-end-line="370" selection-end-column="10" />
+        <state vertical-scroll-proportion="1.0626152">
+          <caret line="369" column="15" selection-start-line="369" selection-start-column="15" selection-end-line="369" selection-end-column="15" />
           <folding>
-            <marker date="1440167810890" expanded="true" signature="3188:3413" placeholder="..." />
-            <marker date="1440167810890" expanded="true" signature="3302:3413" placeholder="..." />
-            <marker date="1440167810890" expanded="true" signature="3362:3413" placeholder="..." />
+            <marker date="1440176746129" expanded="true" signature="3188:3413" placeholder="..." />
+            <marker date="1440176746129" expanded="true" signature="3302:3413" placeholder="..." />
+            <marker date="1440176746129" expanded="true" signature="3362:3413" placeholder="..." />
           </folding>
         </state>
       </provider>

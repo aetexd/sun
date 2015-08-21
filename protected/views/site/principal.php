@@ -198,9 +198,9 @@ if(Yii::app()->session['activo']) {
                         array('empty' => '(Tipo de propiedad)')); ?>
                 </div>
             </div>
-
-            <div class="col-xs-6 col-sm-3">
-                <button type="submit">Enviar</button>
+<br>
+            <div class="col-xs-8 col-sm-3">
+                <input type="button" class="btn" value="Buscar" onClick="window.location = '/solycobre/images/resultado.html';">
             </div>
             <?php $this->endWidget(); ?>
         </form>
@@ -315,7 +315,7 @@ if(Yii::app()->session['activo']) {
 
                     <?php echo $form->textField($model1,'APELLIDOSSOLICITANTE',array('size'=>50,'maxlength'=>50, 'placeholder'=>'Ingrese sus apellidos', "class"=>"form-control select2")); ?>
                     <?php echo $form->error($model1,'APELLIDOSSOLICITANTE'); ?>
-                    </div>
+                </div>
                 <div class="col-md-6">
                     <p>Número de telefono*</p>
                     <?php echo $form->textField($model1,'NUMTELEFONO', array('placeholder'=>'Ingrese su número de telefono', "class"=>"form-control select2")); ?>
@@ -371,17 +371,7 @@ if(Yii::app()->session['activo']) {
     </div>
 
 </div>
-<div id="templatemo_sesion" class="container_wapper">
-    <div class="container-fluid">
 
-        <div class="col-sm-8 hidden-xs">
-            <ul class="nav nav-justified">
-                <li><a href="?r=access">Iniciar sesión</a></li>
-            </ul>
-        </div>
-
-    </div>
-</div>
 <div id="templatemo_footer">
     <div>
         <p id="footer">Calama &copy; 2015. Propiedades Sol y Cobre.</p>

@@ -37,7 +37,7 @@ if(Yii::app()->session['activo']) {
 <div id="templatemo_mobile_menu">
     <ul class="nav nav-pills nav-stacked">
         <li><a href="#templatemo_banner_slide"><i class="glyphicon glyphicon-home"></i> &nbsp; Inicio</a></li>
-        <li><a href="#templatemo_about"><i class="glyphicon glyphicon-briefcase"></i> &nbsp; ¿Quienes Somos?</a></li>
+        <li><a href="#templatemo_about"><i class="glyphicon glyphicon-briefcase"></i> &nbsp; ¿Quiénes Somos?</a></li>
         <li><a href="#templatemo_events"><i class="glyphicon glyphicon-search"></i> &nbsp; Buscar Propiedad</a></li>
         <li><a href="#templatemo_timeline"><i class="glyphicon glyphicon-calendar"></i> &nbsp; Servicios</a></li>
         <li><a href="<?php echo $url;?>" class="external-link"><i class="glyphicon glyphicon-export"></i> &nbsp; <?php echo $label; ?></a></li>
@@ -57,7 +57,7 @@ if(Yii::app()->session['activo']) {
             <div class="col-sm-8 hidden-xs">
                 <ul class="nav nav-justified">
                     <li><a href="#templatemo_banner_slide">Inicio</a></li>
-                    <li><a href="#templatemo_about">¿Quienes Somos?</a></li>
+                    <li><a href="#templatemo_about">¿Quiénes Somos?</a></li>
                     <li><a href="#templatemo_events">Buscar Propiedad</a></li>
                     <li><a href="#templatemo_timeline">Servicios</a></li>
                     <li><a href="#templatemo_contact">Contáctenos</a></li>
@@ -100,7 +100,7 @@ if(Yii::app()->session['activo']) {
 </div>
 <div id="templatemo_about" class="container_wapper">
     <div class="container-fluid">
-        <h1>¿Quienes somos?</h1>
+        <h1>¿Quiénes somos?</h1>
         <h3>La empresa Propiedades sol y cobre es una empresa que se dedica a la venta y arriendo de propiedades tales como: casas, departamentos, locales y hospedaje. También presta servicios como: Obras menores y ampliaciones (pintura, cambio y lavado de alfombras, aseos, búsquedas de propiedades, etc.), y asesorías como: Regularización de Ampliaciones, asesorías de ventas, tasaciones y estudio de título. Actualmente trabaja con particulares y empresas las cuales por nombrar algunas son: Elecda, Komatsu, Mena y Ovalle, a los cuales presta los servicios mencionados anteriormente.</h3>
         <div class="clearfix testimonial_top_bottom_spacer"></div>
         <div class="col-xs-1 pre_next_wap" id="prev_testimonial">

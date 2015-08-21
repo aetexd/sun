@@ -2,72 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61a43030-bffe-42eb-88f9-a8383e569621" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/BebasNeue-webfont.svg" afterPath="$PROJECT_DIR$/css/fonts/BebasNeue-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/CHANGES.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/CHANGES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/Dharma Type Font License.txt" afterPath="$PROJECT_DIR$/css/fonts/Dharma Type Font License.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/ext/data/EBackButtonWidget.php" afterPath="$PROJECT_DIR$/protected/ext/data/EBackButtonWidget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/IntraController.php" afterPath="$PROJECT_DIR$/protected/controllers/IntraController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/LICENSE.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/PropiedadForm.php" afterPath="$PROJECT_DIR$/protected/models/PropiedadForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/scayt/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/plugins/wsc/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/skins/_all-skins.min.css" afterPath="$PROJECT_DIR$/dist/css/skins/_all-skins.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addCliente.php" afterPath="$PROJECT_DIR$/addCliente.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/cliente/addCliente.php" afterPath="$PROJECT_DIR$/protected/views/cliente/addCliente.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate-custom.css" afterPath="$PROJECT_DIR$/css/animate-custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/boton.css" afterPath="$PROJECT_DIR$/css/boton.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/crebas.sql" afterPath="$PROJECT_DIR$/protected/data/crebas.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/demo.css" afterPath="$PROJECT_DIR$/css/demo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/fontomas-webfont.svg" afterPath="$PROJECT_DIR$/css/fonts/fontomas-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/ie/images/footer.svg" afterPath="$PROJECT_DIR$/css/ie/images/footer.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/fonts/franchise-bold-webfont.svg" afterPath="$PROJECT_DIR$/css/fonts/franchise-bold-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/propiedad/gestion.php" afterPath="$PROJECT_DIR$/protected/views/propiedad/gestion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/intra/intra.php" afterPath="$PROJECT_DIR$/protected/views/intra/intra.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/intraLayout.php" afterPath="$PROJECT_DIR$/protected/views/layouts/intraLayout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.ajaxqueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.ajaxqueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.ajaxqueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.ajaxqueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.ajaxqueue.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.ajaxqueue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/28f34c2/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/28f34c2/js/fancybox/jquery.fancybox-1.3.1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/400f684f/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/400f684f/js/fancybox/jquery.fancybox-1.3.1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/841112b8/js/fancybox/jquery.fancybox-1.3.1.css" afterPath="$PROJECT_DIR$/assets/841112b8/js/fancybox/jquery.fancybox-1.3.1.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.multifile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.multifile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.multifile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.multifile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.multifile.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.multifile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/56d1ed57/rating/jquery.rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/5c47102/rating/jquery.rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/7e47458f/rating/jquery.rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/9d5573d5/rating/jquery.rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/rating/jquery.rating.css" afterPath="$PROJECT_DIR$/assets/f4e7ad99/rating/jquery.rating.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.rating.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.rating.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.rating.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.rating.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.rating.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.rating.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/56d1ed57/jquery.treeview.async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/5c47102/jquery.treeview.async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/7e47458f/jquery.treeview.async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/9d5573d5/jquery.treeview.async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/jquery.treeview.async.js" afterPath="$PROJECT_DIR$/assets/f4e7ad99/jquery.treeview.async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/56d1ed57/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/56d1ed57/treeview/jquery.treeview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/5c47102/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/5c47102/treeview/jquery.treeview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/7e47458f/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/7e47458f/treeview/jquery.treeview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/9d5573d5/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/9d5573d5/treeview/jquery.treeview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/f4e7ad99/treeview/jquery.treeview.css" afterPath="$PROJECT_DIR$/assets/f4e7ad99/treeview/jquery.treeview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/images/overlay.svg" afterPath="$PROJECT_DIR$/css/images/overlay.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/principal.php" afterPath="$PROJECT_DIR$/protected/views/site/principal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/propiedadLayout.php" afterPath="$PROJECT_DIR$/protected/views/layouts/propiedadLayout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ckeditor/skins/moono/readme.md" afterPath="$PROJECT_DIR$/plugins/ckeditor/skins/moono/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style3.css" afterPath="$PROJECT_DIR$/css/style3.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/templatemo_script.js" afterPath="$PROJECT_DIR$/js/templatemo_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/templatemo_style.css" afterPath="$PROJECT_DIR$/css/templatemo_style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/propiedad/vista.php" afterPath="$PROJECT_DIR$/protected/views/propiedad/vista.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Solycobre.iws" />
@@ -123,12 +58,12 @@
       <file leaf-file-name="principal.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0626152">
-              <caret line="369" column="15" selection-start-line="369" selection-start-column="15" selection-end-line="369" selection-end-column="15" />
+            <state vertical-scroll-proportion="2.4391143">
+              <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
               <folding>
-                <marker date="1440176746129" expanded="true" signature="3188:3413" placeholder="..." />
-                <marker date="1440176746129" expanded="true" signature="3302:3413" placeholder="..." />
-                <marker date="1440176746129" expanded="true" signature="3362:3413" placeholder="..." />
+                <marker date="1440176899846" expanded="true" signature="3188:3413" placeholder="..." />
+                <marker date="1440176899846" expanded="true" signature="3302:3413" placeholder="..." />
+                <marker date="1440176899846" expanded="true" signature="3362:3413" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -739,7 +674,13 @@
       <option name="project" value="LOCAL" />
       <updated>1440167871243</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Agregar vistas de busquedas en .html (Principal.php)">
+      <created>1440176861889</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1440176861889</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -749,6 +690,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14674735" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15885022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -758,7 +700,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -789,7 +730,8 @@
     <MESSAGE value="creación de widget&#10;" />
     <MESSAGE value="Cambio en la base de datos.- (creabas.sql)" />
     <MESSAGE value="Fix de principal sobre solicitud.- (Principal.php)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix de principal sobre solicitud.- (Principal.php)" />
+    <MESSAGE value="Agregar vistas de busquedas en .html (Principal.php)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar vistas de busquedas en .html (Principal.php)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1158,6 +1100,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="98" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,12 +1125,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0626152">
-          <caret line="369" column="15" selection-start-line="369" selection-start-column="15" selection-end-line="369" selection-end-column="15" />
+        <state vertical-scroll-proportion="2.4391143">
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
           <folding>
-            <marker date="1440176746129" expanded="true" signature="3188:3413" placeholder="..." />
-            <marker date="1440176746129" expanded="true" signature="3302:3413" placeholder="..." />
-            <marker date="1440176746129" expanded="true" signature="3362:3413" placeholder="..." />
+            <marker date="1440176899846" expanded="true" signature="3188:3413" placeholder="..." />
+            <marker date="1440176899846" expanded="true" signature="3302:3413" placeholder="..." />
+            <marker date="1440176899846" expanded="true" signature="3362:3413" placeholder="..." />
           </folding>
         </state>
       </provider>

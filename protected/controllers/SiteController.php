@@ -4,6 +4,7 @@ class SiteController extends CController {
 
         $model=new LoginForm;
         $model1=new Solicitud;
+        $model2=new PropiedadForm;
 
         // validación de ajax
         if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
@@ -21,7 +22,7 @@ class SiteController extends CController {
                 $this->redirect("?r=Intra/index");
         }
         // desplegar el login
-        $this->render('principal',array('model'=>$model, 'model1'=>$model1));
+        $this->render('principal',array('model'=>$model, 'model1'=>$model1, 'model2'=>$model2));
 
 
     }

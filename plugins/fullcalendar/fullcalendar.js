@@ -52,14 +52,14 @@
 	// locale
 	isRTL: false,
 	defaultButtonText: {
-		prev: "prev",
-		next: "next",
-		prevYear: "prev year",
-		nextYear: "next year",
-		today: 'today',
-		month: 'month',
-		week: 'week',
-		day: 'day'
+		prev: "Anterior",
+		next: "Siguiente",
+		prevYear: "Año anterior",
+		nextYear: "Siguiente año",
+		today: 'Hoy',
+		month: 'Mes',
+		week: 'Semana',
+		day: 'Día'
 	},
 
 	buttonIcons: {

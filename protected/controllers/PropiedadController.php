@@ -28,7 +28,7 @@ class PropiedadController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'ver', 'imagen'),
+				'actions'=>array('index','view', 'ver', 'imagen', 'upload'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -131,7 +131,7 @@ class PropiedadController extends Controller
 		{
 			$model->attributes=$_POST['Propiedad'];
 			if($model->save())
-				$this->redirect(array('propiedad/imagen', 'id'=>$model->IDPROP));
+				$this->redirect(array('propiedad/imagen', 'id'=>$model->IDPROP, 'rut'=>$model->RUTCLIENTE));
 		}
 
 		$this->render('gestion',array('model'=>$model,));
@@ -139,11 +139,31 @@ class PropiedadController extends Controller
 
 	}
 
-    public function actionImagen($id){
+    public function actionImagen($id,$rut){
         $model=new Imagen();
-        $this->render('imagen');
+        $model2 = new Cliente();
+        $model2 = Cliente::model()->findByPk($rut);
+        $this->render('imagen',array(
+            'model'=>$this->loadModel($id),
+            'model2'=>$model2,
+        ));
+    }
+    public function actionUpload(){
+        Yii::import("ext.EAjaxUpload.qqFileUploader");
+        $folder = 'uploads/'; // folder for uploaded files
+        $allowedExtensions = array("jpg","jpeg","gif","png"); //array("jpg","jpeg","gif","exe","mov" and etc...
+        $sizeLimit = 10 * 1024 * 1024; // maximum file size in bytes
+        $uploader = new qqFileUploader($allowedExtensions, $sizeLimit);
+        $result = $uploader->handleUpload($folder);
+        $return = htmlspecialchars(json_encode($result), ENT_NOQUOTES);
+
+        $fileSize = filesize($folder . $result['filename']); //GETTING FILE SIZE
+        $fileName = $result['filename']; //GETTING FILE NAME
+        echo $return; // it's array
 
     }
+
+
 
     public function actionVer(){
         $dataProvider=new CActiveDataProvider('Propiedad',array(

@@ -131,7 +131,7 @@ class PropiedadController extends Controller
 		{
 			$model->attributes=$_POST['Propiedad'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->IDPROP));
+				$this->redirect(array('ver','id'=>$model->IDPROP));
 		}
 
 		$this->render('gestion',array('model'=>$model,));
@@ -139,10 +139,14 @@ class PropiedadController extends Controller
 
 	}
 
+    public function actionImagen(){
+
+    }
+
     public function actionVer(){
         $dataProvider=new CActiveDataProvider('Propiedad',array(
             'pagination'=>array(
-                'pageSize'=>4,
+                'pageSize'=>20,
             ),
         ));
         $this->render('index',array(

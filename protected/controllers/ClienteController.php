@@ -33,7 +33,7 @@ class ClienteController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('@'),
+				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
@@ -64,23 +64,25 @@ class ClienteController extends Controller
 	{
 		$model=new Cliente;
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
+    // Uncomment the following line if AJAX validation is needed
+    // $this->performAjaxValidation($model);
 
-        $id=$model->RUTCLIENTE;
-        $persona2 = Yii::app()->db->createCommand("SELECT count(*) AS total FROM cliente WHERE RUTCLIENTE = '".$id."'")->queryRow();
-        $cant = $persona2["total"];
 
-		if(isset($_POST['Cliente']))
-		{
-			$model->attributes=$_POST['Cliente'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->RUTCLIENTE));
-		}
 
-		$this->render('addCliente',array(
-			'model'=>$model,
-		));
+        if (isset($_POST['Cliente'])) {
+            $model->attributes = $_POST['Cliente'];
+            if(!Cliente::model()->find('RUTCLIENTE=:RUT', array(':RUT'=>$model->RUTCLIENTE))) {
+                if ($model->save())
+                    $this->redirect('?r=propiedad/index');
+            }else{
+                $this->render('addCliente', array('model'=>$model));
+            }
+        }else{
+
+        $this->render('addCliente', array(
+            'model' => $model,
+        ));}
+
 	}
 
 	/**

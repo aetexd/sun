@@ -2,7 +2,6 @@
 if(!yii::app()->session['activo'])
     $this->redirect('?r=site/index');;
 ?>
-
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
@@ -20,9 +19,7 @@ if(!yii::app()->session['activo'])
                 <li class="active">Registrar propiedad</li>
             </ol>
         </section>
-
         <!-- Main content -->
-
         <section class="content">
             <?php $form=$this->beginWidget('CActiveForm', array(
                 'id'=>'propiedad-form',
@@ -32,7 +29,6 @@ if(!yii::app()->session['activo'])
                 // See class documentation of CActiveForm for details on this.
                 'enableAjaxValidation'=>false,
             )); ?>
-
             <!-- Seleccion de propietario -->
             <div class="box box-default">
                 <div class="box-header with-border">
@@ -44,10 +40,9 @@ if(!yii::app()->session['activo'])
                         <div class="col-md-6">
                             <div class="form-group">
                                 <?php echo $form->labelEx($model,'RUTCLIENTE'); ?>
-                                <?php echo $form->dropDownList($model,'RUTCLIENTE', CHtml::listData(Cliente::model()->findAll(),'RUTCLIENTE','fullname'), array("class"=>"form-control select2"),
+                                <?php echo $form->dropDownList($model,'RUTCLIENTE', CHtml::listData(Cliente::model()->findAll(array('order' => 'RUTCLIENTE')),'RUTCLIENTE','fullname'), array("class"=>"form-control select2"),
                                     array('empty' => '(Seleccione tipo de servicio)'));?>
                                 <?php echo $form->error($model,'RUTCLIENTE'); ?>
-
                                 <div class="center-block">
                                     <a  href="?r=cliente/create" class="boton">Registrar Nuevo propietario</a>
                                 </div>
@@ -58,13 +53,10 @@ if(!yii::app()->session['activo'])
                 </div><!-- /.box-body -->
                 <div class="box-footer">
                     <div class="pull-right">
-
                     </div>
                 </div>
             </div><!-- /.box -->
-
             <!-- Termino de agregar prop -->
-
             <div class="box box-default">
                 <div class="box-header with-border">
                     <h3 class="box-title">Agregar Propiedad</h3>
@@ -83,7 +75,6 @@ if(!yii::app()->session['activo'])
                                     ),
                                     array("class"=>"form-control select2"),
                                     array('empty' => '(Seleccione tipo de servicio)')); ?>
-
                             </div><!-- /.form-group -->
                             <div class="form-group">
                                 <?php echo $form->labelEx($model,'TIPO'); ?>
@@ -101,7 +92,6 @@ if(!yii::app()->session['activo'])
                                     ),
                                     array("class"=>"form-control select2"),
                                     array('empty' => '(Tipo de propiedad)')); ?>
-
                             </div><!-- /.form-group -->
                         </div><!-- /.col -->
                         <div class="col-md-6">

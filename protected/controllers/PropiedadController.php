@@ -28,7 +28,7 @@ class PropiedadController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'ver'),
+				'actions'=>array('index','view', 'ver', 'imagen'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -131,7 +131,7 @@ class PropiedadController extends Controller
 		{
 			$model->attributes=$_POST['Propiedad'];
 			if($model->save())
-				$this->redirect(array('ver','id'=>$model->IDPROP));
+				$this->redirect(array('propiedad/imagen', 'id'=>$model->IDPROP));
 		}
 
 		$this->render('gestion',array('model'=>$model,));
@@ -139,7 +139,9 @@ class PropiedadController extends Controller
 
 	}
 
-    public function actionImagen(){
+    public function actionImagen($id){
+        $model=new Imagen();
+        $this->render('imagen');
 
     }
 

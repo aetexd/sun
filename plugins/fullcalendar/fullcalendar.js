@@ -613,15 +613,15 @@ function smartProperty(obj, name) { // get a camel-cased/namespaced property of 
 /* Date Utilities
 ----------------------------------------------------------------------------------------------------------------------*/
 
-var dayIDs = [ 'sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat' ];
-var intervalUnits = [ 'year', 'month', 'week', 'day', 'hour', 'minute', 'second', 'millisecond' ];
+var dayIDs = [ 'Dom', 'Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab' ];
+var intervalUnits = [ 'Año', 'Mes', 'Semana', 'Día', 'Hora', 'Minuto', 'Segundo', 'Milisegundo' ];
 
 
 // Diffs the two moments into a Duration where full-days are recorded first, then the remaining time.
 // Moments will have their timezones normalized.
 function diffDayTime(a, b) {
 	return moment.duration({
-		days: a.clone().stripTime().diff(b.clone().stripTime(), 'days'),
+		days: a.clone().stripTime().diff(b.clone().stripTime(), 'Días'),
 		ms: a.time() - b.time() // time-of-day from day start. disregards timezone
 	});
 }
@@ -630,7 +630,7 @@ function diffDayTime(a, b) {
 // Diffs the two moments via their start-of-day (regardless of timezone). Produces whole-day durations.
 function diffDay(a, b) {
 	return moment.duration({
-		days: a.clone().stripTime().diff(b.clone().stripTime(), 'days')
+		days: a.clone().stripTime().diff(b.clone().stripTime(), 'Días')
 	});
 }
 

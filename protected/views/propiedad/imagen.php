@@ -1,3 +1,6 @@
+<?php
+Yii::app()->user->setState('salt', rand(10, 99));
+?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -79,7 +82,7 @@
         </div>
         <div class="box box-default">
             <div class="box-header with-border">
-                <h3 class="box-title">Subida de fotos de propiedad</h3>
+                <h3 class="box-title">Subir de fotos de propiedad</h3>
             </div><!-- /.box-header -->
             <div class="box-body">
                 <div class="center-block">

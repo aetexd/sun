@@ -140,28 +140,32 @@ class PropiedadController extends Controller
 	}
 
     public function actionImagen($id,$rut){
-        $model=new Imagen();
+        $model1=new Imagen();
         $model2 = new Cliente();
         $model2 = Cliente::model()->findByPk($rut);
+        // this is my model related to table
+        if(isset($_POST['Imagen']))
+        {
+            $rnd = rand(0,9999);  // generate random number between 0-9999
+            $model1->attributes=$_POST['Imagen'];
+
+            $uploadedFile=CUploadedFile::getInstance($model1,'URLIMAGEN');
+            $fileName = "{$rnd}-{$uploadedFile}";  // random number + file name
+            $model1->URLIMAGEN = $fileName;
+            $model1->IDPROP = $id;
+
+            if($model1->save())
+            {
+                $uploadedFile->saveAs(Yii::app()->basePath.'/../images/'.$fileName);
+                $this->redirect(array('site/index'));
+            }
+        }
         $this->render('imagen',array(
             'model'=>$this->loadModel($id),
-            'model2'=>$model2,
+            'model2'=>$model2,'model1'=>$model1,
         ));
     }
-    public function actionUpload(){
-        Yii::import("ext.EAjaxUpload.qqFileUploader");
-        $folder = 'uploads/'; // folder for uploaded files
-        $allowedExtensions = array("jpg","jpeg","gif","png"); //array("jpg","jpeg","gif","exe","mov" and etc...
-        $sizeLimit = 10 * 1024 * 1024; // maximum file size in bytes
-        $uploader = new qqFileUploader($allowedExtensions, $sizeLimit);
-        $result = $uploader->handleUpload($folder);
-        $return = htmlspecialchars(json_encode($result), ENT_NOQUOTES);
 
-        $fileSize = filesize($folder . $result['filename']); //GETTING FILE SIZE
-        $fileName = $result['filename']; //GETTING FILE NAME
-        echo $return; // it's array
-
-    }
 
 
 

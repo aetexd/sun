@@ -58,7 +58,7 @@ return array(
             'connectionString' => 'mysql:host=localhost;dbname=sun;',
             'emulatePrepare' => true,
             'username' => 'root',
-            'password' => 'root',
+            'password' => '12345',
             'charset' => 'utf8',
 
         ),

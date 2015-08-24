@@ -37,8 +37,6 @@ Yii::app()->user->setState('salt', rand(10, 99));
                             <?php $this->widget('zii.widgets.CDetailView', array(
                                 'data'=>$model,
                                 'attributes'=>array(
-
-                                    'RUTCLIENTE',
                                     'DIRECCION',
                                     'CANTPIEZA',
                                     'CANTBANO',
@@ -85,9 +83,9 @@ Yii::app()->user->setState('salt', rand(10, 99));
                 <h3 class="box-title">Subir de fotos de propiedad</h3>
             </div><!-- /.box-header -->
             <div class="box-body">
-                <div class="center-block">
-                    <div class="center-block">
-                        <div class="center-block">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
                             <?php $form=$this->beginWidget('CActiveForm', array(
                                 'id'=>'upload-form',
                                 // Please note: When you enable ajax validation, make sure the corresponding
@@ -99,18 +97,9 @@ Yii::app()->user->setState('salt', rand(10, 99));
                                     'enctype' => 'multipart/form-data',
                                 ),
                             )); ?>
-                            <?
-                            $this->widget('application.extensions.EAjaxUpload.EAjaxUpload', array(
-                                'id' => 'fileUploader',
-                                'config' => array(
-                                    'action' => Yii::app()->createUrl('/propiedad/upload'),
-                                    'allowedExtensions' => array("jpg","jpeg","gif","png"), //array("jpg","jpeg","gif","exe","mov" and etc...
-                                    'sizeLimit' => 1 * 1024 * 1024 * 100, // maximum file size in bytes
-                                    'minSizeLimit' => 1024, // minimum file size in bytes
-                                    'onComplete' => "js:function(id, fileName, responseJSON){ $('#archivo').val(fileName); $('#botones').css('display','inline'); }",
-
-                                )
-                            ));;?>
+                                <?php echo $form->labelEx($model1,'IDIMAGEN'); ?>
+                                <?php echo CHtml::activeFileField($model1, 'URLIMAGEN'); ?>  //con esto levantamos la imagen
+                                <?php echo $form->error($model1,'URLIMAGEN'); ?>
 
                         </div>
                     </div>

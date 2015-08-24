@@ -154,6 +154,8 @@ if(!Yii::app()->session['activo'])
                     <ul class="treeview-menu">
                         <li><a href="?r=propiedad/index"><i class="fa fa-plus"></i> Ingresar nueva propiedad</a></li>
                         <li><a href="#"><i class="fa fa-exchange"></i> Modificar Propiedades</a></li>
+                        <li><a href="#"><i class="fa fa-close"></i> Eliminar Propiedad</a></li>
+                        <li><a href="?r=propiedad/ver"><i class="fa fa-file-text-o"></i> Listado de Propiedades</a></li>
                     </ul>
                 </li>
             </ul>
@@ -169,6 +171,7 @@ if(!Yii::app()->session['activo'])
                         <li><a href="#"><i class="fa fa-plus"></i> Agregar Clientes</a></li>
                         <li><a href="?r=propiedad/ver"><i class="fa fa-exchange"></i> Modificar Clientes</a></li>
                         <li><a href="#"><i class="fa fa-close"></i> Eliminar Clientes</a></li>
+                        <li><a href="#"><i class="fa fa-file-text-o"></i> Listado de Clientes</a></li>
                     </ul>
                 </li>
             </ul>

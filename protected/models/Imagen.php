@@ -29,6 +29,7 @@ class Imagen extends CActiveRecord
 			array('IDPROP, URLIMAGEN', 'required'),
 			array('IDPROP', 'numerical', 'integerOnly'=>true),
 			array('URLIMAGEN', 'length', 'max'=>100),
+            array('URLIMAGEN', 'file','types'=>'jpg, jpeg, png', 'allowEmpty'=>true, 'on'=>'update'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('IDIMAGEN, IDPROP, URLIMAGEN', 'safe', 'on'=>'search'),

@@ -167,6 +167,7 @@ if(!yii::app()->session['activo'])
                     <div class="pull-right">
                         <div class="row buttons" style="margin-right: 10px ">
                             <?php echo CHtml::submitButton('Guardar', array('class'=>'boton')); ?>
+                            <?php $this->widget('application.ext.data.EBackButtonWidget'); ?>
                         </div>
                         <?php $this->endWidget(); ?>
                     </div>

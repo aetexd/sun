@@ -4,7 +4,7 @@ class SiteController extends CController {
 
         $model=new LoginForm;
         $model1=new Solicitud;
-        $model2=new PropiedadForm;
+        $model2=new BusquedaForm();
 
         // validación de ajax
         if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
@@ -12,22 +12,26 @@ class SiteController extends CController {
             echo CActiveForm::validate($model);
             Yii::app()->end();
         }
-
-        // obtener datos del usuario
-        if(isset($_POST['LoginForm']))
-        {
-            $model->attributes=$_POST['LoginForm'];
+        if(isset($_POST['BusquedaForm'])) {
+            $this->render('busqueda');
+        }elseif(isset($_POST['LoginForm'])) {
+            $model->attributes = $_POST['LoginForm'];
             // validate user input and redirect to the previous page if valid
-            if($model->validate() && $model->login())
+            if ($model->validate() && $model->login())
                 $this->redirect("?r=Intra/index");
         }
+
         // desplegar el login
         $this->render('principal',array('model'=>$model, 'model1'=>$model1, 'model2'=>$model2));
 
 
     }
 
-
+    public function actionBusqueda(){
+        $this->layout = 'main';
+        $model2=new Propiedad();
+        $this->render('busqueda',array('model2'=>$model2));
+    }
 
     public function actionError()
     {

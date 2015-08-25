@@ -143,7 +143,7 @@ if(Yii::app()->session['activo']) {
 
 
 
-        <form  method="post" class="col-md-12">
+        <form action="#" method="post" class="col-md-12">
             <?php $form=$this->beginWidget('CActiveForm', array(
                 'id'=>'busqueda-form',
                 'action'=>Yii::app()->createUrl('//site/busqueda'),
@@ -167,7 +167,6 @@ if(Yii::app()->session['activo']) {
                     ),
                     array("class"=>"form-control select2"),
                     array('empty' => '(Tipo de propiedad)')); ?>
-                    <?php echo $form->error($model,'SERVICIO');?>
 
                 </div>
                 <div class="col-md-3">
@@ -181,7 +180,6 @@ if(Yii::app()->session['activo']) {
                         ),
                         array("class"=>"form-control select2"),
                         array('empty' => '(Tipo de propiedad)')); ?>
-                    <?php echo $form->error($model,'COMUNAPROPIEDAD');?>
                 </div>
                 <div class="col-md-3">
                     <blanco>Típo de propiedad</blanco>
@@ -199,12 +197,11 @@ if(Yii::app()->session['activo']) {
                         ),
                         array("class"=>"form-control select2"),
                         array('empty' => '(Tipo de propiedad)')); ?>
-                    <?php echo $form->error($model,'COMUNAPROPIEDAD');?>
                 </div>
             </div>
             <br>
             <div class="col-xs-8 col-sm-3">
-                <?php echo CHtml::submitButton('Buscar', array("class"=>"btn") ); ?>
+            <input type="submit" value="Iniciar sesión" class"btn"/>'
             </div>
             <?php $this->endWidget(); ?>
         </form>

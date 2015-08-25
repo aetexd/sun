@@ -28,11 +28,11 @@ class PropiedadController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view', 'ver', 'imagen', 'upload'),
+				'actions'=>array('index','view', 'ver', 'imagen', 'busqueda'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update', 'upload'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -165,6 +165,7 @@ class PropiedadController extends Controller
             'model2'=>$model2,'model1'=>$model1,
         ));
     }
+
 
 
 

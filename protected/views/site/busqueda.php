@@ -115,12 +115,12 @@
         <p id="footer">Calama &copy; 2015. Propiedades Sol y Cobre.</p>
     </div>
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.singlePageNav.min.js"></script>
-<script src="js/unslider.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.singlePageNav.min.js"></script>
+<script src="/js/unslider.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-<script src="js/templatemo_script.js"></script>
-</body>
+<script src="/js/templatemo_script.js"></script>
+
 

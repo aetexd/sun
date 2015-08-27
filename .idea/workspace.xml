@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61a43030-bffe-42eb-88f9-a8383e569621" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/site/_principal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/site/busqueda.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/views/layouts/busquedaLayout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/Propiedad.php" afterPath="$PROJECT_DIR$/protected/models/Propiedad.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/PropiedadController.php" afterPath="$PROJECT_DIR$/protected/controllers/PropiedadController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/intraLayout.php" afterPath="$PROJECT_DIR$/protected/views/layouts/intraLayout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/busqueda.php" afterPath="$PROJECT_DIR$/protected/views/site/busqueda.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/principal.php" afterPath="$PROJECT_DIR$/protected/views/site/principal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/templatemo_style.css" afterPath="$PROJECT_DIR$/css/templatemo_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Solycobre.iws" />
@@ -53,26 +47,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="principal.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="principal.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-42.46154">
-              <caret line="208" column="40" selection-start-line="156" selection-start-column="11" selection-end-line="208" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.9450867">
+              <caret line="367" column="43" selection-start-line="367" selection-start-column="43" selection-end-line="367" selection-end-column="43" />
               <folding>
-                <marker date="1440533570008" expanded="true" signature="3188:3413" placeholder="..." />
-                <marker date="1440533570008" expanded="true" signature="3302:3413" placeholder="..." />
-                <marker date="1440533570008" expanded="true" signature="3362:3413" placeholder="..." />
+                <marker date="1440553498083" expanded="true" signature="3188:3413" placeholder="..." />
+                <marker date="1440553498083" expanded="true" signature="3302:3413" placeholder="..." />
+                <marker date="1440553498083" expanded="true" signature="3362:3413" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addCliente.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/cliente/addCliente.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.461538">
-              <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="99" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -80,8 +64,8 @@
       <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.346153">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -90,7 +74,7 @@
       <file leaf-file-name="BusquedaForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/BusquedaForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
+            <state vertical-scroll-proportion="0.0">
               <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
               <folding />
             </state>
@@ -100,18 +84,18 @@
       <file leaf-file-name="PropiedadForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/PropiedadForm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.1923075">
+            <state vertical-scroll-proportion="0.0">
               <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="busqueda.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="busqueda.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/views/site/busqueda.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53038675">
-              <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -172,10 +156,10 @@
         <option value="$PROJECT_DIR$/protected/controllers/PropiedadController.php" />
         <option value="$PROJECT_DIR$/protected/models/PropiedadForm.php" />
         <option value="$PROJECT_DIR$/protected/models/busquedaForm.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/principal.php" />
         <option value="$PROJECT_DIR$/protected/models/BusquedaForm.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/site/busqueda.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/principal.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
       </list>
     </option>
   </component>
@@ -204,7 +188,13 @@
             <id />
           </State>
           <State>
+            <id>CSS</id>
+          </State>
+          <State>
             <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
           </State>
           <State>
             <id>GeneralJavaScript</id>
@@ -216,7 +206,13 @@
             <id>Internationalization issues</id>
           </State>
           <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
             <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
           </State>
           <State>
             <id>Naming conventionsJavaScript</id>
@@ -238,6 +234,15 @@
           </State>
           <State>
             <id>SQL</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XSLT</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -534,7 +539,7 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.textmate.bundles" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -707,16 +712,23 @@
       <option name="project" value="LOCAL" />
       <updated>1440386599305</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Intento de envio de busqueda">
+      <created>1440534520048</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1440534520048</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16263238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15885022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -726,7 +738,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -759,7 +770,9 @@
     <MESSAGE value="Fix de principal sobre solicitud.- (Principal.php)" />
     <MESSAGE value="Agregar vistas de busquedas en .html (Principal.php)" />
     <MESSAGE value="Subir imagen provisoría, fix de interfaz de intranet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Subir imagen provisoría, fix de interfaz de intranet" />
+    <MESSAGE value="Intento de envio de busqueda" />
+    <MESSAGE value="Intento de envio de busqueda .1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intento de envio de busqueda .1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -954,13 +967,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/data/crebas.sql">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="341" column="0" selection-start-line="341" selection-start-column="0" selection-end-line="341" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/Solicitud.php">
@@ -1093,7 +1106,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614">
           <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,7 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="80" selection-start-line="37" selection-start-column="80" selection-end-line="38" selection-end-column="140" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,25 +1123,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/cliente/addCliente.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.461538">
-          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/PropiedadForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.1923075">
+        <state vertical-scroll-proportion="0.0">
           <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/cliente/addCliente.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5322284">
+          <caret line="90" column="28" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/BusquedaForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
@@ -1138,29 +1148,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/busqueda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/principal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-42.46154">
-          <caret line="208" column="40" selection-start-line="156" selection-start-column="11" selection-end-line="208" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.9450867">
+          <caret line="367" column="43" selection-start-line="367" selection-start-column="43" selection-end-line="367" selection-end-column="43" />
           <folding>
-            <marker date="1440533570008" expanded="true" signature="3188:3413" placeholder="..." />
-            <marker date="1440533570008" expanded="true" signature="3302:3413" placeholder="..." />
-            <marker date="1440533570008" expanded="true" signature="3362:3413" placeholder="..." />
+            <marker date="1440553498083" expanded="true" signature="3188:3413" placeholder="..." />
+            <marker date="1440553498083" expanded="true" signature="3302:3413" placeholder="..." />
+            <marker date="1440553498083" expanded="true" signature="3362:3413" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/busqueda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53038675">
-          <caret line="99" column="47" selection-start-line="99" selection-start-column="47" selection-end-line="99" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>

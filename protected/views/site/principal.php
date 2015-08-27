@@ -291,44 +291,48 @@ if(Yii::app()->session['activo']) {
         </div>
 
         <!-- Inicio de formulario de solicitud -->
-        <form action="#" method="post" class="col-md-8">
+        <div class="col-md-12">
             <?php $form=$this->beginWidget('CActiveForm', array(
-                'id'=>'propiedad-form',
+                'id'=>'buscar-form',
+                'action'=>Yii::app()->createUrl('/site/index'),
                 // Please note: When you enable ajax validation, make sure the corresponding
                 // controller action is handling ajax validation correctly.
                 // There is a call to performAjaxValidation() commented in generated controller code.
                 // See class documentation of CActiveForm for details on this.
                 'enableAjaxValidation'=>false,
             )); ?>
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>Solicite el servicio deseado</h2>
-                </div>
-                <div class="col-md-6">
-                    <p>Ingrese su correo*</p>
-                    <?php echo $form->emailField($model1,'CORREOCONTACTO',array('size'=>10,'maxlength'=>10, 'placeholder'=>'12345678-9', "class"=>"form-control select2")); ?>
-                    <?php echo $form->error($model1,'CORREOCONTACTO'); ?>
-                </div>
-                <div class="col-md-6">
-                    <p>Nombres*</p>
-                    <?php echo $form->textField($model1,'NOMBRESSOLICITANTE',array('size'=>50,'maxlength'=>50, 'placeholder'=>'Ingrese sus nombres', "class"=>"form-control select2" )); ?>
-                    <?php echo $form->error($model1,'NOMBRESSOLICITANTE'); ?>
-                </div>
-                <div class="col-md-6">
-                    <p>Apellidos*</p>
+            <div class="row row-centered">
 
-                    <?php echo $form->textField($model1,'APELLIDOSSOLICITANTE',array('size'=>50,'maxlength'=>50, 'placeholder'=>'Ingrese sus apellidos', "class"=>"form-control select2")); ?>
-                    <?php echo $form->error($model1,'APELLIDOSSOLICITANTE'); ?>
-                </div>
-                <div class="col-md-6">
-                    <p>Número de telefono*</p>
-                    <?php echo $form->textField($model1,'NUMTELEFONO', array('placeholder'=>'Ingrese su número de telefono', "class"=>"form-control select2")); ?>
-                    <?php echo $form->error($model1,'NUMTELEFONO'); ?>
+                <div class="col-md-3 col-centered ">
+                    <blanco>Venta/Arriendo</blanco>
+
+                    <?php echo $form->dropDownList($model2,'SERVICIO',
+                        array(
+                            'Todas' => 'Todas',
+                            'Venta' => 'Venta',
+                            'Arriendo' => 'Arriendo',
+                        ),
+                        array("class"=>"form-control select2"),
+                        array('empty' => '(Tipo de propiedad)')); ?>
+                    <?php echo $form->error($model2,'SERVICIO');?>
 
                 </div>
-                <div class="col-md-6">
-                    <p>Tipo de Propiedad*</p>
-                    <?php echo $form->dropDownList($model1,'TIPOPROPIEDAD',
+                <div class="col-md-3">
+                    <blanco>Donde</blanco>
+                    <?php echo $form->dropDownList($model2,'COMUNAPROPIEDAD',
+                        array(
+                            'Antofagasta' => 'Antofagasta',
+                            'Arica' => 'Arica',
+                            'Calama' => 'Calama',
+                            'Iquique' => 'Iquique',
+                        ),
+                        array("class"=>"form-control select2"),
+                        array('empty' => '(Tipo de propiedad)')); ?>
+                    <?php echo $form->error($model2,'COMUNAPROPIEDAD');?>
+                </div>
+                <div class="col-md-3">
+                    <blanco>Típo de propiedad</blanco>
+                    <?php echo $form->dropDownList($model2,'TIPO',
                         array(
                             'Departamento Habitación' => 'Departamento Habitación',
                             'Local' => 'Local',
@@ -342,36 +346,15 @@ if(Yii::app()->session['activo']) {
                         ),
                         array("class"=>"form-control select2"),
                         array('empty' => '(Tipo de propiedad)')); ?>
-
-                </div>
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-6">
-                    <p>Tipo de servicio*</p>
-                    <?php echo $form->dropDownList($model1,'SERVICIOSOLICITADO',
-                        array(
-                            'Venta' => 'Venta',
-                            'Arriendo' => 'Arriendo',
-                            'Tasación' => 'Tasación',
-                            'Estudio de título' => 'Estudio de título',
-                            'Ampliaciones menores' => 'Ampliaciones menores',
-                            'Aseo de propiedad' => 'Aseo de propiedad',
-                        ),
-                        array("class"=>"form-control select2"),
-                        array('empty' => '(Seleccione tipo de servicio)')); ?>
-                    <?php echo $form->error($model1,'SERVICIOSOLICITADO'); ?>
-                </div>
-                <div class="col-md-12">
-                    <p>Comentario*</p>
-                    <?php echo $form->textArea($model1,'DESCRIPCIONSOLICITUD',array('size'=>60,'maxlength'=>254, 'placeholder'=>'Escriba una breve descripción o comentario', "class"=>"form-control select2")); ?>
-                    <?php echo $form->error($model1,'DESCRIPCIONSOLICITUD'); ?>
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <button type="submit">Enviar</button>
+                    <?php echo $form->error($model2,'TIPO');?>
                 </div>
             </div>
+            <br>
+            <div class="col-xs-8 col-sm-3">
+                <?php echo CHtml::submitButton('Buscar', array("class"=>"btn") ); ?>
+            </div>
             <?php $this->endWidget(); ?>
-        </form>
+        </div>
     </div>
 
 </div>

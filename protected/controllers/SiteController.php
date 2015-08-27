@@ -4,7 +4,7 @@ class SiteController extends CController {
 
         $model=new LoginForm;
         $model1=new Solicitud;
-        $model2=new BusquedaForm();
+        $model2=new Propiedad();
 
         // validación de ajax
         if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
